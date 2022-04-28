@@ -3,7 +3,7 @@ from optparse import OptionParser
 
 def main():
     # parse the options
-    parser = OptionParser("python %prog [options] -u USERNAME -p PASSWORD INSTAGRAM")
+    parser = OptionParser("python %prog [options] -u USERNAME -p PASSWORD TARGET_USERNAME")
     parser.add_option("-u", "--user", dest="username",
                     help="username to login to the instagram")
     parser.add_option("-p", "--pass", dest="password",
